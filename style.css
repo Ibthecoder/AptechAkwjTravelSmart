@@ -146,3 +146,25 @@ font-variation-settings:
 .gallery .col-6 {
     padding: 0;
 }
+
+.footer {
+    background-color: #1cc3b2;
+}
+
+.footer-content h2 {
+    color: #271b1b;
+}
+
+.footer-content h5,
+.footer-content p,
+.footer-links a {
+    color: #181515;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    background-color: #161313;
+}
