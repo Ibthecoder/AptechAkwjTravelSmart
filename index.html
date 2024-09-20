@@ -17,8 +17,42 @@
 
 <body>
 
+  <!--Navbar-start  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-3" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link1 active1" aria-current="page" href="#" style="text-decoration: none;">
+              <h4 class="text-dark ms-3">Home</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link1 active1  " aria-current="page" href="#about-section" style="text-decoration: none;">
+              <h4 class="text-dark ms-4">About</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link1 active1 " aria-current="page" href="#about-section" style="text-decoration: none;">
+              <h4 class="text-dark ms-4 ">Contact</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar-end -->
+
+
   <!-- Navbar-start -->
-  <nav class="navbar navbar-expand-lg " style="background-color: rgb(255, 255, 255);">
+  <!-- <nav class="navbar navbar-expand-lg " style="background-color: rgb(255, 255, 255);">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <h1 class="text-dark"><span style="color: #1cc3b2;">TRAVEL</span> SMART</h1>
@@ -51,7 +85,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- Navbar-start -->
 
   <!-- Main-page-start -->
@@ -91,12 +125,12 @@
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon " style="background-color: #1cc3b2;" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next">
-        <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon " style="background-color: #1cc3b2;" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
@@ -158,7 +192,7 @@
               <div class="service-box1 rounded text-center"
                 style="background-color: #ffffff; box-shadow:  2px 2px 15px rgba(20, 20, 20, 0.05); padding: 29px;">
                 <img src="static/img/icon-1.png.webp" class="img-fluid" alt="">
-                <h6 class="mt-3 head-font ">Transportion</h6>
+                <h6 class="mt-3 head-font ">Transportation</h6>
               </div>
             </div>
 
@@ -166,7 +200,7 @@
               <div class="service-box2 rounded text-center "
                 style="background-color: #ffffff; box-shadow:  2px 2px 15px rgba(20, 20, 20, 0.05); padding: 29px;">
                 <img src="static/img/icon-2.png.webp" class="img-fluid " alt="">
-                <h6 class=" mt-3 head-font">Reiseservice</h6>
+                <h6 class=" mt-3 head-font">service</h6>
               </div>
             </div>
 
@@ -174,7 +208,7 @@
               <div class="service-box3 rounded text-center"
                 style="background-color: #ffffff; box-shadow:  2px 2px 15px rgba(20, 20, 20, 0.05); padding: 29px;">
                 <img src="static/img/icon-3.png.webp" class="img-fluid " alt="">
-                <h6 class=" mt-3 head-font">Relaxtion</h6>
+                <h6 class=" mt-3 head-font">Relaxation</h6>
               </div>
             </div>
 
@@ -182,8 +216,9 @@
             <div class="col-lg-2 col-sm-12 col-md-6 col-12 mt-3">
               <div class="service-box3 rounded text-center "
                 style="background-color: #ffffff; box-shadow:  2px 2px 15px rgba(20, 20, 20, 0.05); padding: 28px;">
-                <img src="static/img/icon-1.png.webp" class="img-fluid " alt="">
-                <h6 class=" mt-3 head-font">Bar & Drink</h6>
+                <img src="static/img/icon-4.png.webp" class="img-fluid " alt="">
+                <!-- <img src="static/img/icon-1.png.webp" class="img-fluid " alt=""> -->
+                <h6 class=" mt-1 head-font">Bar & Drink</h6>
               </div>
             </div>
 
@@ -191,7 +226,8 @@
             <div class="col-lg-2 col-sm-12 col-md-6 col-12 mt-3">
               <div class="service-box3 rounded text-center "
                 style="background-color: #ffffff; box-shadow:  2px 2px 15px rgba(20, 20, 20, 0.05); padding: 24px;">
-                <img src="static/img/icon-4.png.webp" class="img-fluid " alt="">
+                <img src="static/img/icon-3.png.webp" class="img-fluid " alt="">
+                <!-- <img src="static/img/icon-4.png.webp" class="img-fluid " alt=""> -->
                 <h6 class=" mt-3 head-font">Restaurant</h6>
               </div>
             </div>
@@ -363,13 +399,6 @@
             <strong class="paragraph-fnt4">Rooms</strong>
           </button>
         </li>
-        <!-- <li class="nav-item" role="presentation">
-          <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill"
-            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-            aria-selected="false">
-            <strong class="paragraph-fnt4">Contact</strong>
-          </button>
-        </li> -->
       </ul>
       <div class="tab-content" id="pills-tabContent">
 
@@ -381,7 +410,7 @@
               <div class="container">
                 <div class="row">
                   <!-- card-1-satrt -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/2nd picture.jpeg" height="230" class="card-img-top" alt="...">
 
@@ -565,7 +594,7 @@
 
 
                   <!-- card-2-start -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/Zuma_Rock.jpg" height="230" class="card-img-top" alt="...">
 
@@ -628,12 +657,12 @@
                               </div>
                               <div class="modal-body">
                                 <img src="static/img/abuja zuma.jpg" class="img-fluid" alt="">
-                                ><u>Accomodation</u>
+                                <u>Accomodation</u>
                                 <h6 class="mt-2 paragraph-fnt4">Zuma Rock Resort </h6>
                                 <h6>
                                   <h6>
                                     <span>
-                                      ><strong>Rating</strong>
+                                      <strong>Rating</strong>
                                       : 4.0/5
                                     </span>
                                   </h6>
@@ -711,7 +740,7 @@
 
 
                   <!-- card-3-satrt -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/sunset-at-tarkwa-bay-.webp" height="230" class="card-img-top" alt="...">
 
@@ -780,7 +809,7 @@
                                   <h6>
                                     <span>
                                       <b>Rating</b>
-                                      - : 4.0/5
+                                      : 4.0/5
                                     </span>
                                   </h6>
                                   <hr>
@@ -885,7 +914,7 @@
 
 
                   <!-- card-4-start -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/4th pic.jpg" height="230" class="card-img-top" alt="...">
 
@@ -1056,7 +1085,7 @@
                   <!-- card-4-end -->
 
                   <!-- card-5-start -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/Rain2.jpg" height="230" class="card-img-top" alt="...">
 
@@ -1125,7 +1154,7 @@
                                   <h6>
                                     <span>
                                       <b>Rating</b>
-                                      - : 4.0/5
+                                      : 4.0/5
                                     </span>
                                   </h6>
                                   <hr>
@@ -1232,7 +1261,7 @@
 
 
                   <!-- card-7-satrt -->
-                  <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                  <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                     <div class="card" style="width: 21rem;">
                       <img src="static/img/cross-img.jpg" height="230" class="card-img-top" alt="...">
 
@@ -1303,7 +1332,7 @@
                                   <h6>
                                     <span>
                                       <b>Rating</b>
-                                      - : 4.0/5
+                                      : 4.0/5
                                     </span>
                                   </h6>
                                   <hr>
@@ -1414,7 +1443,7 @@
             <div class="container">
               <div class="row g-0">
                 <!--CARD-1-START  -->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-1.jpg" style="height: 270px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1425,22 +1454,13 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">
-                        Offering an outdoor pool and a restaurant, Victoria Crown Plaza Hotel Hotel is located in
-                        Victoria Island City. Free Wi-Fi access is available.
-                      </p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN 231,312.05</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
                     </div>
                   </div>
                 </div>
                 <!--CARD-1-START-->
 
                 <!--CARD-2-START  -->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-2.jpg" style="height: 276px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1451,23 +1471,13 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">Situated in Lekki, Villa Thirty Three offers free WiFi and
-                        private
-                        parking.
-                        The hotel has air-conditioned rooms with a private bathroom.
-                      </p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN50,000</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
                     </div>
                   </div>
                 </div>
                 <!--CARD-2-START-->
 
                 <!--CARD-3-START  -->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-3.webp" style="height: 264px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1478,21 +1488,14 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">Offering an indoor pool and a restaurant, Maison Fahrenheit is
-                        located in
-                        Lagos. Free WiFi access is available.</p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN 197,998.76</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
+                      <p class="card-text paragraph-fnt4"></p>
                     </div>
                   </div>
                 </div>
                 <!--CARD-3-END-->
 
                 <!--CARD-4-START-->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-4.jpg" style="height: 264px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1504,15 +1507,6 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">Offering an indoor pool and a restaurant, Maison Fahrenheit is
-                        located in
-                        Lagos. Free WiFi access is available. Each room here will provide you with air conditioning and
-                        a minibar. </p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN 200,000</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
                     </div>
                   </div>
                 </div>
@@ -1520,7 +1514,7 @@
 
 
                 <!--CARD-5-START-->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-5.jpg" style="height: 264px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1532,15 +1526,6 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">Offering an indoor pool and a restaurant, Maison Fahrenheit is
-                        located in
-                        Lagos. Free WiFi access is available. Each room here will provide you with air conditioning and
-                        a minibar. </p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN 350,000</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
                     </div>
                   </div>
                 </div>
@@ -1548,7 +1533,7 @@
 
 
                 <!--CARD-6-START-->
-                <div class="col-lg-4 col-sm-12 col-md-12 col-12 mt-4">
+                <div class="col-lg-4 col-sm-12 col-md-6 col-12 mt-4">
                   <div class="card" style="width: 21rem;">
                     <img src="static/img/room-7.jpg" style="height: 264px;" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -1559,15 +1544,6 @@
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                         <i class="fas fa-star" style="color: #FFD43B;"></i>
                       </div>
-                      <p class="card-text paragraph-fnt4">Offering an indoor pool and a restaurant, Maison Fahrenheit is
-                        located in
-                        Lagos. Free WiFi access is available. Each room here will provide you with air conditioning and
-                        a minibar. </p>
-                      <span class="paragraph-fnt4">Price from</span>
-                      <div>
-                        <strong style="color: #1cc3b2;">NGN 193,048.79</strong>
-                      </div>
-                      <span class="paragraph-fnt4">per night</span>
                     </div>
                   </div>
                 </div>
@@ -1598,13 +1574,13 @@
 
 
 
-
+  <br>
   <!-- FEEDBACK-STAR -->
   <section>
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-5">
           <div class="comment-box-1"
             style="background-color: #ffffff; box-shadow: 2px 2px 15px rgba(20, 20, 20, 0.05); ">
             <div class="d-flex align-items-start">
@@ -1615,16 +1591,16 @@
 
               <!-- Text Content -->
               <div class="mt-2">
-                <h4 class="head-font mt-5">"Travel Smart turned my dream vacation into reality with seamless planning
-                  and top recommendations. The entire experience was unforgettable. Can’t wait for more!"</h4>
-                <h6 class="paragraph-fnt2 mt-3">— Sarah Thompson, <span style="color: #1cc3b2;">New York</span></h6>
+                <h4 class="head-font mt-5">"Absolutely fantastic experience! TravelSmart made planning our dream
+                  vacation so easy. "</h4>
+                <h6 class="paragraph-fnt2 mt-3"> Adeseto I.</h6>
               </div>
 
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-5">
           <div class="comment-box-1"
             style="background-color: #ffffff; box-shadow: 2px 2px 15px rgba(20, 20, 20, 0.05); ">
             <div class="d-flex align-items-start">
@@ -1635,15 +1611,16 @@
 
               <!-- Text Content -->
               <div class="">
-                <h4 class="head-font mt-5">"Travel Smart is my go-to for travel planning. They make exploring new
-                  destinations effortless, and their customer service is beyond excellent!"</h4>
-                <h6 class="paragraph-fnt2 mt-3">— David Hernandez, <span style="color: #1cc3b2;">California</span></h6>
+                <h4 class="head-font mt-5">"Everything was perfect, from the smooth booking process to the exceptional
+                  customer support!"</h4>
+                <h6 class="paragraph-fnt2 mt-3"> Nnamdi J.
+                </h6>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 mt-5">
           <div class="comment-box-1"
             style="background-color: #ffffff; box-shadow: 2px 2px 15px rgba(20, 20, 20, 0.05); ">
             <div class="d-flex align-items-start">
@@ -1654,16 +1631,14 @@
 
               <!-- Text Content -->
               <div class="">
-                <h4 class="head-font mt-5">"Thanks to Travel Smart, I found hidden gems I’d never discover on my own.
-                  The entire trip was flawless from start to finish, and I’ll definitely return!"</h4>
-                <h6 class="paragraph-fnt2 mt-3">— Emma Johnson <span style="color: #1cc3b2;">New York</span></h6>
+                <h4 class="head-font mt-5">"Best travel platform I've used—amazing deals, flawless service, and
+                  unforgettable recommendations!" </h4>
+                <h6 class="paragraph-fnt2 mt-3">  Elena R.</h6>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
   </section>
   <!-- FEEDBACK-END -->
 
@@ -1672,36 +1647,37 @@
 
   <br>
   <br>
+  <br>
+  <br>
   <!-- CONTACT-US-START-->
   <div class="container" style="background-color: #ffffff; box-shadow: 5px 10px 15px rgba(20, 20, 20, 0.05);">
     <div class="row">
-      <div class="col-lg-3 mt-3">
+      <div class="col-lg-3 mt-4 col-sm-12 col-md-6 col-12">
         <i class="fa-solid fa-phone fa-2x" style="color: #1cc3b2;"></i>
         <h4>Phone</h4>
         <a href="tel:+2349133601952" style="text-decoration: none; color: black;">+2349133601952</a>
       </div>
-      <div class="col-lg-3 mt-3">
+      <div class="col-lg-3 mt-4 col-sm-12 col-md-6 col-12">
         <div>
           <i class="fa-solid fa-envelope fa-2x" style="color: #1cc3b2;"></i>
           <h4>Email</h4>
-          <a href="mailto:oladipupoibrahim10@gmail.com"
-            style="text-decoration: none; color: black;">oladipupoibrahim10@gmail.com</a>
+          <a href="mailto:hepta3881@gmail.com" style="text-decoration: none; color: black;">hepta3881@gmail.com</a>
         </div>
       </div>
 
-      <div class="col-lg-3 mt-3">
+      <div class="col-lg-3 mt-4 col-sm-12 col-md-6 col-12">
         <div>
           <i class="fa fa-map-marker fa-2x" style="color: #1cc3b2;"></i>
           <h4>Address</h4>
-
+          <p>2, Shasha Road, Akowonjo, Lagos, Nigeria.</p>
         </div>
       </div>
 
-      <div class="col-lg-3 mt-3">
+      <div class="col-lg-3 mt-4 col-sm-12 col-md-6 col-12">
         <div>
           <i class="fa fa-clock-o fa-2x" style="color: #1cc3b2;"></i>
           <h4> Open time</h4>
-          <p>9:00am to 5:00pm</p>
+          <p>6:00am to 10:00pm</p>
         </div>
       </div>
     </div>
@@ -1730,32 +1706,26 @@
   <br>
   <br>
   <div class="container">
-    <form action="">
+    <form action="https://formspree.io/f/xyzgqejl" method="POST">
       <div class="row">
-        <div class="col-lg-6">
-          <input type="text" class="form-control custom-input-height " placeholder="Name" required minlength="3"
-            maxlength="20">
+        <div class="col-lg-6 mt-4">
+          <input type="text" class="form-control custom-input-height " placeholder="Name" name="name" required
+            minlength="3" maxlength="20">
         </div>
 
-        <div class="col-lg-6">
-          <input type="email" class="form-control custom-input-height" placeholder="Email" required>
+        <div class="col-lg-6 mt-4">
+          <input type="email" class="form-control custom-input-height" name="email" placeholder="Email" required>
         </div>
 
         <textarea class="form-control mt-5" id="exampleFormControlTextarea1" rows="4"
           placeholder="Your Message"></textarea>
       </div>
       <button type="submit" class="btn btn-outline-white text-white  mt-3"
-        style="background-color: #1cc3b2;">Secondary</button>
+        style="background-color: #1cc3b2;">Submit</button>
     </form>
   </div>
 
-
-
-
-
-
   <!-- CONTACT-US-END-->
-
 
   <!--  -->
   <footer class="footer p-5">
@@ -1812,23 +1782,6 @@
         <div class="col-md-6 text-lg-center text-sm-start text-md-center">
           <p>&copy; 2024 Travel Smart Agency. All rights reserved.</p>
         </div>
-        <!-- <div class="col-md-6 text-end">
-                <ul class="list-inline footer-links">
-                    <li class="list-inline-item">
-                        <a href="#" class="text-white">
-                            Privacy Policy
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="text-white">
-                            Terms of Service
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="text-white">
-                            Sitemap
-                        </a>
-                    </li> -->
         </ul>
       </div>
     </div>
