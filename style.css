@@ -132,29 +132,17 @@ font-variation-settings:
     /* Adjust height as needed */
 }
 
-br
-
-/* footer-start */
-.footer {
-    background-color: #2f2979;
+.gallery img {
+    width: 100%;
+    height: auto;
 }
 
-.footer-content h2 {
-    color: #271b1b;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.footer-content h5,
-.footer-content p,
-.footer-links a {
-    color: #181515;
+.gallery .col-6 {
+    padding: 0;
 }
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-.footer hr {
-    background-color: #161313;
-}
-
-/* footer-start */
